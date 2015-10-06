@@ -7,3 +7,26 @@ body {
   border: 5px dashed red;
   margin: 0 auto;
 }
+#workspace img {
+  width: 600px;
+}
+#caption {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#workspace {
+ position: relative;
+}
+#caption {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-shadown: 0 0 5px rgba(0,0,0,0.4);
+	width: 400px;
+	font-size: 32px;
+	color: red;
+	margin: 0;
+}
