@@ -1,5 +1,43 @@
+header {
+  padding: 15px;
+  background-color: rgba(255,255,255, 0.7);
+  box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
+#select-image {
+  background-color: rgba(255,255,255, 0.3);
+  padding: 10px;
+}
+#add-text {
+    background-color: rgba(0,255,255, 0.02);
+    padding: 10px;
+    box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
 body {
-	background-image: url(/images/seamless_paper_texture.png)
+	text-align: center;
+	background-image: url(/images/seamless_paper_texture.png);
+	color: gray;
+  	font-family: Helvetica, Arial;
+  	margin: 0;
+  	padding: 0;
+}
+#add-text input {
+  width: 600px;
+  text-align: center;
+}
+input, button {
+    font-size: 16px;
+}
+#style-image {
+    background-color: rgba(255,255,255, 0.7);
+    padding: 10px;
+    box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
+#controls {
+  padding: 10px;
+  font-size: 14px;
+}
+input[type="number"] {
+  width: 50px;
 }
 #workspace {
   width: 600px;
@@ -29,4 +67,20 @@ body {
 	font-size: 32px;
 	color: red;
 	margin: 0;
+}
+footer {
+  background-color: rgba(255,0,255,0.01);
+  padding: 10px;
+  text-align: left;
+  box-shadow: -1px 0 5px rgba(0,0,0, 0.3);
+}
+footer img {
+  float: left;
+  margin-right: 40px;
+}
+footer div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
 }
